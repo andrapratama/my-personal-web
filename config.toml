@@ -1,0 +1,4 @@
+baseURL = 'https://andrapratama.github.io/'
+languageCode = 'en-us'
+title = 'Andra Satria Pratama'
+theme = 'paper'
