@@ -2,3 +2,37 @@ baseURL = 'https://andrapratama.github.io/'
 languageCode = 'en-us'
 title = 'Andra Satria Pratama'
 theme = 'paper'
+
+#disqusShortname = 'Andra'   # add disqus comments
+
+[params]
+  # color style
+  color = 'linen'                 # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'andrapratama_15'     # twitter.com/YOUR_TWITTER_ID
+  github = 'andrapratama'       # github.com/YOUR_GITHUB_ID
+  instagram = 'andrapratama15' # instagram.com/YOUR_INSTAGRAM_ID
+  #rss = false                      # show rss icon with link
+
+  # home page profile
+  #avatar = 'GRAVATAR_EMAIL'       # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
+  #name = 'Andra Satria Pratama'
+  #bio = 'Im a ...'
+
+  # misc
+  disableHLJS = true              # disable requesting highlight.js
+  monoDarkIcon = true             # show monochrome dark mode icon
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
