@@ -10,9 +10,9 @@ theme = 'paper'
   color = 'linen'                 # linen, wheat, gray, light
 
   # header social icons
-  twitter = 'andrapratama_15'     # twitter.com/YOUR_TWITTER_ID
-  github = 'andrapratama'       # github.com/YOUR_GITHUB_ID
-  instagram = 'andrapratama15' # instagram.com/YOUR_INSTAGRAM_ID
+  # twitter = 'andrapratama_15'     # twitter.com/YOUR_TWITTER_ID
+  # github = 'andrapratama'       # github.com/YOUR_GITHUB_ID
+  # instagram = 'andrapratama15' # instagram.com/YOUR_INSTAGRAM_ID
   #rss = false                      # show rss icon with link
 
   # home page profile
@@ -30,9 +30,4 @@ theme = 'paper'
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
     weight = 10
