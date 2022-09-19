@@ -1,28 +1,37 @@
 baseURL = 'https://andrapratama.github.io/'
-languageCode = 'en-us'
-title = 'Andra Satria Pratama'
-theme = 'paper'
+# title = "Hugo Themes"
+author = "Steve Francia"
+copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
+paginate = 4
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
 
-#disqusShortname = 'Andra'   # add disqus comments
+# ------------------------------
+theme = "paper"
+title = "Andra Satria Pratama"
 
 [params]
-  # color style
-  color = 'linen'                 # linen, wheat, gray, light
+  color = 'linen'
 
-  # header social icons
-  # twitter = 'andrapratama_15'     # twitter.com/YOUR_TWITTER_ID
-  # github = 'andrapratama'       # github.com/YOUR_GITHUB_ID
-  # instagram = 'andrapratama15' # instagram.com/YOUR_INSTAGRAM_ID
-  #rss = false                      # show rss icon with link
+ # twitter = 'nanxiaobei'
+  github = 'andrapratama'
+ # instagram = 'nan.xiaobei'
 
-  # home page profile
-  #avatar = 'GRAVATAR_EMAIL'       # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
-  #name = 'Andra Satria Pratama'
-  #bio = 'Im a ...'
+ # avatar = 'nanxiaobei@gmail.com'
+ # name = 'Lee'
+ # bio = 'Discover fresh context'
 
-  # misc
-  disableHLJS = true              # disable requesting highlight.js
-  monoDarkIcon = true             # show monochrome dark mode icon
+# ------------------------------
+
+# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [menu]
 
@@ -31,3 +40,40 @@ theme = 'paper'
     name = "About"
     url = "/about/"
     weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true

@@ -5,3 +5,5 @@ date = "2022-09-15"
 aliases = ["about"]
 author = "andra"
 +++
+
+This my blog website for sharing and noting my programming career life

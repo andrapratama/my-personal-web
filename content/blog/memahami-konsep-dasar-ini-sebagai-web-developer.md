@@ -2,6 +2,9 @@
 title: "Memahami Konsep Dasar Ini Sebagai Web Developer"
 date: 2022-09-15T18:11:42+07:00
 draft: false
+tags:
+- client
+- server
 ---
 
 Untuk mengetahui bagaimana sebuah website bekerja, ada 2 hal yang harus diketahui yaitu Server dan Client.
