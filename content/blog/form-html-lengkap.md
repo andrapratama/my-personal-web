@@ -80,3 +80,6 @@ Mari kita buat sebuah halaman HTML dengan form yang lengkap
 </body>
 </html>
 ```
+
+Hasilnya
+![image](/assets/images/form-html.png)
