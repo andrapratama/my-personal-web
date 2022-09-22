@@ -15,7 +15,7 @@ Sebelumnya kita sudah membuat form HTML, tetapi kita belum mempercantiknya. Seka
 <html>
 
 <head>
-    <title>Form HTML</title>
+    <title>Form HTML CSS</title>
 </head>
 <style>
     input[type=text],
@@ -127,3 +127,4 @@ Sebelumnya kita sudah membuat form HTML, tetapi kita belum mempercantiknya. Seka
 ```
 
 Hasilnya
+![image](/assets/images/form-html-css.png)
