@@ -1,13 +1,13 @@
 ---
-title: "Method"
-date: 2022-09-01T00:09:22+07:00
+title: "Constructor"
+date: 2022-09-01T00:08:22+07:00
 draft: false
 tags:
 - dart
 - oop
 ---
 
-Method merupakan fungsi yang dimiliki oleh sebuah Class. Dalam Class Appbar yang sudah dibuat sebelumnya kita punya method dengan nama create().
+Constructor merupakan fungsi yang pertama kali dipanggil ketika sebuah objek dibuat. Dalam Class Appbar yang sudah dibuat sebelumnya kita punya Constructor yang namanya sama persis dengan nama Classnya.
 {{< highlight dart >}}
 class AppBar {
   // property
@@ -15,6 +15,7 @@ class AppBar {
   int tinggi;
   String warna;
 
+  // constructor
   AppBar(this.nama, this.tinggi, this.warna);
 
   // method
