@@ -1,5 +1,5 @@
 ---
-title: "Paradigma OOP Pada Dart"
+title: "1. Paradigma OOP Pada Dart"
 date: 2022-09-25T00:12:22+07:00
 draft: false
 tags:

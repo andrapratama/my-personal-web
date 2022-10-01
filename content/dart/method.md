@@ -1,5 +1,5 @@
 ---
-title: "Method"
+title: "4. Method"
 date: 2022-09-01T00:09:22+07:00
 draft: false
 tags:
