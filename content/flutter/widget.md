@@ -7,14 +7,16 @@ tags:
 - widget
 ---
 
-Widget dibuat menggunakan framework modern yang terinspirasi dari React. Ide utamanya adalah kita membuat User Interface (Antarmuka) dengan menggunakan Widget tersebut. Widget mendeskripsikan seperti apa tampilan dengan konfigurasi dan statusnya. Ketika konfigurasi dan status dari sebuah status Widget berubah, ia akan dibuat ulang sesuai deskripsinya konfigurasi dan status yang baru.
+Widget pada Flutter adalah komponen-komponen yang tampil di layar seperti **Text**, **Button**, **Image** dan sebagainya yang bisa dilihat, dan juga komponen-komponen yang mengatur seperti apa Widget tadi (Text, Button, Image dan sebagainya yang bisa dilihat) ditampilkan seperti **Row**, **Column**, **Stack**, **Container**.
+
+Widget-widget tersebut bisa dikonfigurasi dan diberi status (*state*). Ketika ada perubahan konfigurasi dan status, widget akan dibuat ulang sesuai dengan konfigurasi dan statenya yang baru
 
 # Widget Dasar
 
-Text
+- **Text** memungkinkan untuk membuat serangkaian teks dengan gaya (*style*) yang kita inginkan.
 
-Row, Column
+- **Row** dan **Column** memungkinkan untuk membuat tata letak (*layout*) sesuai arah, *Row* untuk horizontal dan *Column* intuk vertikal. Desain objek ini didasarkan pada model tata letak *flexbox web*.
 
-Stack
+- **Stack** memungkinkan untuk menempatkan widget secara bertumpuk. Widget bisa menimpa satu sama lain seperti urutan cat. Kita bisa menggukanan Widget **Positioned** pada anak (*child*) Widget **Stack** untuk untuk memposisikannya relatif terhadap tepi atas, kanan, bawah, atau kiri. **Stack** didasarkan pada model tata letak pemosisian *absolut web*.
 
-Container
+- **Container** memungkinkan untuk membuat elemen visual berbentuk persegi panjang yang bisa didekorasi dengan Widget **BoxDecoration** seperti background, border atau shadow. **Contaianer** juga punya margin, padding dan batasan yang diterapkan pada ukurannya. Selain itu, **Container** dapat ditransformasikan dalam ruang tiga dimensi menggunakan matriks.

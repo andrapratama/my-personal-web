@@ -1,7 +1,7 @@
 ---
 title: "PHP CRUD With Jquery Ajax and Bootstrap"
 date: 2022-09-18T15:03:16+07:00
-draft: false
+draft: true
 tags:
 - php
 - ajax
