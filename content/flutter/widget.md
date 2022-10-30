@@ -11,6 +11,22 @@ Widget pada Flutter adalah komponen-komponen yang tampil di layar seperti **Text
 
 Widget-widget tersebut bisa dikonfigurasi dan diberi status (*state*). Ketika ada perubahan konfigurasi dan status, widget akan dibuat ulang sesuai dengan konfigurasi dan statenya yang baru
 
+Contoh Aplikasi Flutter sederhana yang memanggil funsi runApp() dengan sebuah widget:
+{{< highlight dart >}}
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    const Center(
+      child: Text(
+        'Hello, world!',
+        textDirection: TextDirection.ltr,
+      ),
+    ),
+  );
+}
+{{< /highlight >}}
+
 # Widget Dasar
 
 - **Text** memungkinkan untuk membuat serangkaian teks dengan gaya (*style*) yang kita inginkan.
