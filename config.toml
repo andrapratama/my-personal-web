@@ -55,6 +55,11 @@ title = "Andra Satria Pratama"
     name = "Flutter"
     url = "/flutter/"
     weight = 10
+  [[menu.main]]
+    identifier = "web"
+    name = "Web"
+    url = "/web/"
+    weight = 10
 
 [taxonomies]
 category = "categories"

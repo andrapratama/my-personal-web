@@ -1,7 +1,7 @@
 ---
 title: "Best Practices Flutter"
 date: 2022-09-01T00:05:23+07:00
-draft: false
+draft: true
 tags:
 - flutter
 ---
