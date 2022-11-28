@@ -40,26 +40,7 @@ title = "Andra Satria Pratama"
     name = "About"
     url = "/about/"
     weight = 10
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 10
-  [[menu.main]]
-    identifier = "dart"
-    name = "Dart"
-    url = "/dart/"
-    weight = 10
-  [[menu.main]]
-    identifier = "flutter"
-    name = "Flutter"
-    url = "/flutter/"
-    weight = 10
-  [[menu.main]]
-    identifier = "web"
-    name = "Web"
-    url = "/web/"
-    weight = 10
+  
 
 [taxonomies]
 category = "categories"
