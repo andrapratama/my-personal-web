@@ -27,3 +27,9 @@ SELECT [id]
 OFFSET 0 ROWS 
 FETCH NEXT 10 ROWS ONLY;
 {{< /highlight >}}
+
+## **Create Index Table**
+{{< highlight sql >}}
+CREATE INDEX [idx_log]
+ON [log] ([id]);
+{{< /highlight >}}
