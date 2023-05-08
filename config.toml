@@ -157,7 +157,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     author = true
     # site creation time
     # 网站创立年份
-    since = 2019
+    since = 2022
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
@@ -173,7 +173,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     paginate = 20
     # date format (month and day)
     # 日期格式 (月和日)
-    dateFormat = "01-02"
+    dateFormat = "02-01"
     # amount of RSS pages
     # RSS 文章数目
     rss = 10
@@ -186,7 +186,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     paginate = 20
     # date format (month and day)
     # 日期格式 (月和日)
-    dateFormat = "01-02"
+    dateFormat = "02-01"
     # amount of RSS pages
     # RSS 文章数目
     rss = 10
@@ -802,30 +802,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
       [[languages.en.menu.main]]
         weight = 2
-        identifier = "tags"
+        identifier = "clean-code"
         pre = ""
         post = ""
-        name = "Tags"
-        url = "/tags/"
+        name = "Clean Code"
+        url = "/clean-code/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categories"
-        url = "/categories/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 5
+        weight = 6
         identifier = "about"
         pre = ""
         post = ""
@@ -833,7 +817,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         url = "/about/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 6
+        weight = 7
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
